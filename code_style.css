@@ -60,3 +60,36 @@ input {
     padding: 10px;
     margin: 10px;
 }
+button {
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#updateMessage {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 80%;
+    }
+}
