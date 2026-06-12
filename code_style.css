@@ -29,3 +29,25 @@ nav a:hover {
     text-align: center;
     padding: 40px;
 }
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid lightgray;
+    transition: 0.3s;
+}
+
+.service:hover {
+    background-color: #e6f0ff;
+    transform: scale(1.05);
+}
