@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid lightgray;
+    transition: 0.3s;
+}
+
+.service:hover {
+    background-color: #e6f0ff;
+    transform: scale(1.05);
+}
+
+.update-section {
+    text-align: center;
+    padding: 30px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#updateMessage {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 80%;
+    }
+}
